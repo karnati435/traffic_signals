@@ -1,0 +1,47 @@
+.traffic-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.signal-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin: 20px auto;
+  width: 80px;
+  padding: 20px;
+  background: #333;
+  border-radius: 10px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+
+.circle.active {
+  opacity: 1;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.4);
+}
+
+.circle.orange {
+  background-color: orange;
+}
+
+.circle.green {
+  background-color: green;
+}
+
+.circle.red {
+  background-color: red;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
